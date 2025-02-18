@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Phage Tail Fiber Atlas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="search.js" defer></script>
+    <style>
+          body { 
+            font-family: 'Courier New', Courier, monospace; 
+            margin: 0;
+            text-align: center;
+        }
+        
+        .search-container {
+            margin: 20px auto;
+            width: 80%;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 2px solid black;
+        }
+        table {
+            width: 100%;
+            margin: auto;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .header-image img {
+        max-width: 500px; /* Adjust size */
+        height: auto;
+        display: block;
+        margin: 20px auto;
+            }
+
+    </style>
+</head>
+<body>
+
+    <div class="menu-bar">
+        <a href="index.html">Home</a>
+        <a href="notready.html">Classify</a>
+        <a href="search.html">Search</a>
+        <a href="notready.html">Download</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="header-image">
+        <img src="image4.png" alt="Search for RBP Data">
+    </div>
+    
+
+    <div class="search-container">
+        <!-- Dropdown for dataset selection -->
+        <label for="datasetChoice">Choose a dataset:</label>
+        <select id="datasetChoice" onchange="loadDataset()">
+            <option value="">-- Select Dataset --</option>
+            <option value="data.json">Dataset 1</option>
+            <option value="data_expanded.json">Dataset 2</option>
+        </select>
+        <p> </p>
+
+        <input type="text" id="searchInput" onkeyup="searchJSON()" placeholder="Search by any keyword..." disabled>
+
+        <table id="resultsTable">
+            <thead id="resultsHead">
+                <!-- Headers will be generated dynamically -->
+            </thead>
+            <tbody id="resultsBody">
+                <!-- Results will be generated dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+</body>
+<div class="footer">
+    PhAtaDa: Phage RBP Atlas - Beta-Version 1.0 | © 2025 All Rights Reserved | Developed by: <a href="https://bsky.app/profile/vkleinsousa.bsky.social" target="_blank">Klein-Sousa V.</a>
+</div>
+</html>

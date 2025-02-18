@@ -1,0 +1,506 @@
+[
+    {
+        "RBP ID": "RBP_00",
+        "Accession Code": "AWD91690",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC14",
+        "Sequence Clusters": "2"
+    },
+    {
+        "RBP ID": "RBP_01",
+        "Accession Code": "QXV80698",
+        "Family": "Drexlerviridae",
+        "Subfamily": "Tempevirinae",
+        "TC_classes": "TC4",
+        "Sequence Clusters": "8"
+    },
+    {
+        "RBP ID": "RBP_02",
+        "Accession Code": "YP_003912",
+        "Family": "Drexlerviridae",
+        "Subfamily": "Tunavirinae",
+        "TC_classes": "TC4",
+        "Sequence Clusters": "8"
+    },
+    {
+        "RBP ID": "RBP_03",
+        "Accession Code": "AFU62385",
+        "Family": "N/A",
+        "Subfamily": "Ounavirinae",
+        "TC_classes": "TC6",
+        "Sequence Clusters": "1"
+    },
+    {
+        "RBP ID": "RBP_04",
+        "Accession Code": "QXV80938",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC1",
+        "Sequence Clusters": "19"
+    },
+    {
+        "RBP ID": "RBP_05",
+        "Accession Code": "QXV76923",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC14",
+        "Sequence Clusters": "2"
+    },
+    {
+        "RBP ID": "RBP_06",
+        "Accession Code": "YP_008530274",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC1",
+        "Sequence Clusters": "19"
+    },
+    {
+        "RBP ID": "RBP_07",
+        "Accession Code": "QXV77497",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC9",
+        "Sequence Clusters": "15"
+    },
+    {
+        "RBP ID": "RBP_08",
+        "Accession Code": "YP_008530272",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC8",
+        "Sequence Clusters": "7"
+    },
+    {
+        "RBP ID": "RBP_09",
+        "Accession Code": "YP_007112629",
+        "Family": "N/A",
+        "Subfamily": "Dhillonvirus (genus)",
+        "TC_classes": "TC3",
+        "Sequence Clusters": "3"
+    },
+    {
+        "RBP ID": "RBP_10",
+        "Accession Code": "QXV77928",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC12",
+        "Sequence Clusters": "20"
+    },
+    {
+        "RBP ID": "RBP_11",
+        "Accession Code": "QXV82547",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC12",
+        "Sequence Clusters": "20"
+    },
+    {
+        "RBP ID": "RBP_12",
+        "Accession Code": "CUL02548",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC11",
+        "Sequence Clusters": "23"
+    },
+    {
+        "RBP ID": "RBP_13",
+        "Accession Code": "QXV79628",
+        "Family": "Demerecviridae",
+        "Subfamily": "Markadamsvirinae",
+        "TC_classes": "TC7",
+        "Sequence Clusters": "-1"
+    },
+    {
+        "RBP ID": "RBP_14",
+        "Accession Code": "ACB97589",
+        "Family": "Demerecviridae",
+        "Subfamily": "Markadamsvirinae",
+        "TC_classes": "TC16",
+        "Sequence Clusters": "-1"
+    },
+    {
+        "RBP ID": "RBP_15",
+        "Accession Code": "CBX44414",
+        "Family": "N/A",
+        "Subfamily": "Ounavirinae",
+        "TC_classes": "TC-1",
+        "Sequence Clusters": "-1"
+    },
+    {
+        "RBP ID": "RBP_16",
+        "Accession Code": "QXV77733",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC8",
+        "Sequence Clusters": "7"
+    },
+    {
+        "RBP ID": "RBP_18",
+        "Accession Code": "YP_009824934",
+        "Family": "Drexlerviridae",
+        "Subfamily": "Braunvirinae",
+        "TC_classes": "TC4",
+        "Sequence Clusters": "8"
+    },
+    {
+        "RBP ID": "RBP_19",
+        "Accession Code": "ANZ50831",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC0",
+        "Sequence Clusters": "9"
+    },
+    {
+        "RBP ID": "RBP_20",
+        "Accession Code": "AWD91693",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC0",
+        "Sequence Clusters": "9"
+    },
+    {
+        "RBP ID": "RBP_21",
+        "Accession Code": "AEV89340",
+        "Family": "N/A",
+        "Subfamily": "Dhillonvirus (genus)",
+        "TC_classes": "TC4",
+        "Sequence Clusters": "3"
+    },
+    {
+        "RBP ID": "RBP_22",
+        "Accession Code": "QXV79379",
+        "Family": "Drexlerviridae",
+        "Subfamily": "Tempevirinae",
+        "TC_classes": "TC-1",
+        "Sequence Clusters": "8"
+    },
+    {
+        "RBP ID": "RBP_24",
+        "Accession Code": "YP_009145700",
+        "Family": "N/A",
+        "Subfamily": "Ounavirinae",
+        "TC_classes": "TC6",
+        "Sequence Clusters": "1"
+    },
+    {
+        "RBP ID": "RBP_25",
+        "Accession Code": "QXV85920",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC13",
+        "Sequence Clusters": "12"
+    },
+    {
+        "RBP ID": "RBP_26",
+        "Accession Code": "AWD91436",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC14",
+        "Sequence Clusters": "11"
+    },
+    {
+        "RBP ID": "RBP_27",
+        "Accession Code": "AKO61944",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC1",
+        "Sequence Clusters": "19"
+    },
+    {
+        "RBP ID": "RBP_28",
+        "Accession Code": "AFH20211",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC0",
+        "Sequence Clusters": "9"
+    },
+    {
+        "RBP ID": "RBP_29",
+        "Accession Code": "QBO61257",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC13",
+        "Sequence Clusters": "12"
+    },
+    {
+        "RBP ID": "RBP_30",
+        "Accession Code": "QXV77226",
+        "Family": "Demerecviridae",
+        "Subfamily": "Markadamsvirinae",
+        "TC_classes": "TC15",
+        "Sequence Clusters": "13"
+    },
+    {
+        "RBP ID": "RBP_31",
+        "Accession Code": "QXV82990",
+        "Family": "N/A",
+        "Subfamily": "Dhillonvirus (genus)",
+        "TC_classes": "TC3",
+        "Sequence Clusters": "3"
+    },
+    {
+        "RBP ID": "RBP_32",
+        "Accession Code": "YP_009323872",
+        "Family": "Demerecviridae",
+        "Subfamily": "Markadamsvirinae",
+        "TC_classes": "TC15",
+        "Sequence Clusters": "13"
+    },
+    {
+        "RBP ID": "RBP_33",
+        "Accession Code": "ASV44893",
+        "Family": "Drexlerviridae",
+        "Subfamily": "Tempevirinae",
+        "TC_classes": "TC7",
+        "Sequence Clusters": "14"
+    },
+    {
+        "RBP ID": "RBP_34",
+        "Accession Code": "QXV77132",
+        "Family": "N/A",
+        "Subfamily": "Queuovirinae",
+        "TC_classes": "TC9",
+        "Sequence Clusters": "15"
+    },
+    {
+        "RBP ID": "RBP_35",
+        "Accession Code": "QXV78163",
+        "Family": "N/A",
+        "Subfamily": "Stephanstirmvirinae",
+        "TC_classes": "TC-1",
+        "Sequence Clusters": "16"
+    },
+    {
+        "RBP ID": "RBP_36",
+        "Accession Code": "YP_004414866",
+        "Family": "Drexlerviridae",
+        "Subfamily": "Tunavirinae",
+        "TC_classes": "TC4",
+        "Sequence Clusters": "8"
+    },
+    {
+        "RBP ID": "RBP_38",
+        "Accession Code": "AEK12502",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC14",
+        "Sequence Clusters": "11"
+    },
+    {
+        "RBP ID": "RBP_39",
+        "Accession Code": "QXV83111",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC0",
+        "Sequence Clusters": "9"
+    },
+    {
+        "RBP ID": "RBP_40",
+        "Accession Code": "QBO61254",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC-1",
+        "Sequence Clusters": "9"
+    },
+    {
+        "RBP ID": "RBP_41",
+        "Accession Code": "QGK90546",
+        "Family": "Autographiviridae",
+        "Subfamily": "Studiervirinae",
+        "TC_classes": "TC2",
+        "Sequence Clusters": "21"
+    },
+    {
+        "RBP ID": "RBP_42",
+        "Accession Code": "AKA61060",
+        "Family": "N/A",
+        "Subfamily": "Queuovirinae",
+        "TC_classes": "TC9",
+        "Sequence Clusters": "15"
+    },
+    {
+        "RBP ID": "RBP_44",
+        "Accession Code": "QBQ80320",
+        "Family": "N/A",
+        "Subfamily": "Stephanstirmvirinae",
+        "TC_classes": "TC-1",
+        "Sequence Clusters": "16"
+    },
+    {
+        "RBP ID": "RBP_45",
+        "Accession Code": "ATE86506",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC14",
+        "Sequence Clusters": "2"
+    },
+    {
+        "RBP ID": "RBP_46",
+        "Accession Code": "QEA10100",
+        "Family": "Drexlerviridae",
+        "Subfamily": "Tempevirinae",
+        "TC_classes": "TC-1",
+        "Sequence Clusters": "14"
+    },
+    {
+        "RBP ID": "RBP_47",
+        "Accession Code": "AGR46195",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC-1",
+        "Sequence Clusters": "9"
+    },
+    {
+        "RBP ID": "RBP_48",
+        "Accession Code": "QEG11849",
+        "Family": "Autographiviridae",
+        "Subfamily": "Studiervirinae",
+        "TC_classes": "TC2",
+        "Sequence Clusters": "21"
+    },
+    {
+        "RBP ID": "RBP_49",
+        "Accession Code": "QXV79286",
+        "Family": "N/A",
+        "Subfamily": "Queuovirinae",
+        "TC_classes": "TC12",
+        "Sequence Clusters": "-1"
+    },
+    {
+        "RBP ID": "RBP_50",
+        "Accession Code": "QEG11854",
+        "Family": "Autographiviridae",
+        "Subfamily": "Studiervirinae",
+        "TC_classes": "TC16",
+        "Sequence Clusters": "18"
+    },
+    {
+        "RBP ID": "RBP_51",
+        "Accession Code": "AEZ65169",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC1",
+        "Sequence Clusters": "19"
+    },
+    {
+        "RBP ID": "RBP_52",
+        "Accession Code": "QXV76844",
+        "Family": "Autographiviridae",
+        "Subfamily": "Studiervirinae",
+        "TC_classes": "TC16",
+        "Sequence Clusters": "18"
+    },
+    {
+        "RBP ID": "RBP_53",
+        "Accession Code": "QCQ65468",
+        "Family": "Demerecviridae",
+        "Subfamily": "Markadamsvirinae",
+        "TC_classes": "TC15",
+        "Sequence Clusters": "13"
+    },
+    {
+        "RBP ID": "RBP_54",
+        "Accession Code": "AWD91362",
+        "Family": "N/A",
+        "Subfamily": "Ounavirinae",
+        "TC_classes": "TC6",
+        "Sequence Clusters": "1"
+    },
+    {
+        "RBP ID": "RBP_55",
+        "Accession Code": "CUL03178",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC-1",
+        "Sequence Clusters": "15"
+    },
+    {
+        "RBP ID": "RBP_56",
+        "Accession Code": "QXV82780",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC8",
+        "Sequence Clusters": "7"
+    },
+    {
+        "RBP ID": "RBP_57",
+        "Accession Code": "QXV85537",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC12",
+        "Sequence Clusters": "20"
+    },
+    {
+        "RBP ID": "RBP_58",
+        "Accession Code": "QHR65043",
+        "Family": "N/A",
+        "Subfamily": "Stephanstirmvirinae",
+        "TC_classes": "TC-1",
+        "Sequence Clusters": "16"
+    },
+    {
+        "RBP ID": "RBP_59",
+        "Accession Code": "ACD75703",
+        "Family": "Autographiviridae",
+        "Subfamily": "Studiervirinae",
+        "TC_classes": "TC2",
+        "Sequence Clusters": "21"
+    },
+    {
+        "RBP ID": "RBP_60",
+        "Accession Code": "AWD91363",
+        "Family": "N/A",
+        "Subfamily": "Ounavirinae",
+        "TC_classes": "TC7",
+        "Sequence Clusters": "-1"
+    },
+    {
+        "RBP ID": "RBP_61",
+        "Accession Code": "AEM00908",
+        "Family": "Straboviridae",
+        "Subfamily": "Tevenvirinae",
+        "TC_classes": "TC11",
+        "Sequence Clusters": "23"
+    },
+    {
+        "RBP ID": "RBP_62",
+        "Accession Code": "QBQ80471",
+        "Family": "N/A",
+        "Subfamily": "Dhillonvirus (genus)",
+        "TC_classes": "TC3",
+        "Sequence Clusters": "3"
+    },
+    {
+        "RBP ID": "RBP_63",
+        "Accession Code": "YP_009600425",
+        "Family": "N/A",
+        "Subfamily": "Ounavirinae",
+        "TC_classes": "TC6",
+        "Sequence Clusters": "1"
+    },
+    {
+        "RBP ID": "RBP_64",
+        "Accession Code": "QXV82771",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC9",
+        "Sequence Clusters": "15"
+    },
+    {
+        "RBP ID": "RBP_65",
+        "Accession Code": "QXV81162",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC8",
+        "Sequence Clusters": "7"
+    },
+    {
+        "RBP ID": "RBP_66",
+        "Accession Code": "QXV84116",
+        "Family": "N/A",
+        "Subfamily": "Vequintavirinae",
+        "TC_classes": "TC1",
+        "Sequence Clusters": "19"
+    }
+]
