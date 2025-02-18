@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phage Tail Fiber Atlas</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #ffffff;
+        }
+        .top-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 20%;
+            height: 30vh;
+            padding-right: 10px;
+        }
+        .logo-image {
+            max-width: 400px; /* Initially larger */
+            height: auto;
+            transition: max-width 0.1s ease-in-out;
+            margin-top:150px
+        }
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            height: 200vh;
+        }
+        .atlas-container {
+            width: 100%;
+            height: 100%;
+            display: none;
+            border: none;
+        }
+        .switch-container {
+            display: none;
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .left-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .atlas-box {
+            font-size: 24px;
+            border: 2px solid black;
+            padding: 15px 30px;
+            transition: 0.1s;
+            text-align: center;
+        }
+        .atlas-box:hover {
+            background-color: black;
+            color: white;
+        }
+        .atlas-select {
+            margin-top: 20px;
+            font-size: 18px;
+            padding: 10px;
+            border: 2px solid black;
+            background: white;
+            cursor: pointer;
+        }
+        .atlas-select:hover {
+            background: black;
+            color: white;
+        }
+        .small-logo {
+            max-width: 200px !important; /* Reduce size after selection */
+            margin-top:-10px;
+            left: 0%;
+            transform: translateX(30%);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-bar">
+        <a href="index.html">Home</a>
+        <a href="notready.html">Classify</a>
+        <a href="notready.html">Search</a>
+        <a href="notready.html">Download</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="top-container" id="logoContainer">
+        <img src="image.png" alt="Atlas Graphic" class="logo-image" id="logoImage">
+    </div>
+    <div class="content-container" id="selection-container">
+        <div class="left-container">
+            <div class="atlas-box">Choose your atlas</div>
+            <select id="atlasChoice" class="atlas-select">
+                <option value="dataset_rbpseg.html">RBPseg</option>
+            </select>
+            <button class="atlas-select" onclick="openAtlas()">Open Atlas</button>
+        </div>
+    </div>
+    <iframe id="atlasFrame" class="atlas-container"></iframe>
+    <div class="switch-container" id="switchContainer">
+        <label for="atlasSwitch">Switch Atlas:</label>
+        <select id="atlasSwitch" class="atlas-select" onchange="switchAtlas()">
+            <option value="dataset_rbpseg.html">RBPseg</option>
+        </select>
+    </div>
+    <script>
+        function openAtlas() {
+            const selectedAtlas = document.getElementById('atlasChoice').value;
+            document.getElementById('selection-container').style.display = 'none';
+            document.getElementById('atlasFrame').style.display = 'block';
+            document.getElementById('atlasFrame').src = selectedAtlas;
+            document.getElementById('switchContainer').style.display = 'block';
+
+            // Change logo image
+            document.getElementById('logoImage').src = "image3.png";
+
+            // Optionally, reduce logo size
+            document.getElementById('logoImage').classList.add('small-logo');
+        }
+
+        function switchAtlas() {
+            const selectedAtlas = document.getElementById('atlasSwitch').value;
+            document.getElementById('atlasFrame').src = selectedAtlas;
+        }
+    </script>
+    <div class="footer">
+        PhAtaDa: Phage RBP Atlas - Beta-Version 1.0 | © 2025 All Rights Reserved | Developed by: <a href="https://bsky.app/profile/vkleinsousa.bsky.social" target="_blank">Klein-Sousa V.</a>
+    </div>
+     
+</body>
+</html>

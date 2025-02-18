@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Phage Tail Fiber Atlas</title>
+    <style>
+        body { 
+            font-family: 'Courier New', Courier, monospace; 
+            margin: 0;
+            text-align: center;
+        }
+        .citing-container {
+            margin-top: 50px;
+        }
+        .citation-box {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border: 1px solid #ccc;
+            display: inline-block;
+            margin-top: 10px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            text-align: left;
+            max-width: 80%;
+            overflow-x: auto;
+        }
+        .copy-button {
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .copy-button:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-bar">
+        <a href="index.html">Home</a>
+        <a href="notready.html">Classify</a>
+        <a href="notready.html">Search</a>
+        <a href="notready.html">Download</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <h1>About Phage Tail Fiber Atlas</h1>
+    <p>This project provides interactive visualizations of phage tail fibers...</p>
+
+    <div class="citing-container">
+        <h1>Citation</h1>
+        <p>If this tool was useful for your research, please consider citing:</p>
+        <div class="citation-box" id="citation-text">
+@article{klein2024towards,
+    title={Towards a complete phage tail fiber structure atlas.},
+    author={Klein-Sousa, Victor and Roa-Eguiara, Aritz and Kielkopf, Claudia Sybille and Sofos, Nicholas and Taylor, Nicholas MI},
+    journal={bioRxiv},
+    pages={2024--10},
+    year={2024},
+    publisher={Cold Spring Harbor Laboratory}
+}
+        </div>
+        <button class="copy-button" onclick="copyCitation()">Copy Citation</button>
+    </div>
+
+    <div class="citing-container">
+        <p>Please consider citing these other papers:</p>
+        <div class="citation-box">
+            <p>Evans, Richard, et al. "Protein complex prediction with AlphaFold-Multimer." biorxiv (2021): 2021-10.</p>
+            <p>Kim, Woosub, et al. "Rapid and sensitive protein complex alignment with foldseek-multimer." Nature Methods (2025): 1-4.</p>
+            <p>Plique, Guillaume. "ipysigma." (2022).</p>
+            <p>Hunter, Sarah, et al. "InterPro: the integrative protein signature database." Nucleic acids research 37.suppl_1 (2009): D211-D215.</p>
+            <p>Egorov, Artyom A., Vasili Hauryliuk, and Gemma C. Atkinson. "Systematic annotation of hyper-variability hotspots in phage genomes and plasmids." bioRxiv (2024): 2024-10.</p>
+            
+        </div>
+        <p>If you think there's a citation missing, please <a href="contact.html">contact us</a>.</p>
+        <p></a>.</p>
+        <p></a>.</p>
+    </div>
+
+    <script>
+        function copyCitation() {
+            const citationText = document.getElementById("citation-text").innerText;
+            navigator.clipboard.writeText(citationText).then(() => {
+                alert("Citation copied to clipboard!");
+            }).catch(err => {
+                console.error("Failed to copy: ", err);
+            });
+        }
+    </script>
+    <div class="footer">
+        PhAtaDa: Phage RBP Atlas - Beta-Version 1.0 | © 2025 All Rights Reserved | Developed by: <a href="https://bsky.app/profile/vkleinsousa.bsky.social" target="_blank">Klein-Sousa V.</a>
+    </div>
+         
+</body>
+</html>

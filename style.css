@@ -1,0 +1,29 @@
+.menu-bar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    padding: 5px 0; /* Reduced padding for a thinner bar */
+    height: 30px; /* Adjust height as needed */
+    align-items: center;
+}
+.menu-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px; /* Reduce padding inside each menu item */
+    font-size: 16px; /* Adjust font size if needed */
+}
+.menu-bar a:hover {
+    background-color: gray;
+}
+.footer {
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
